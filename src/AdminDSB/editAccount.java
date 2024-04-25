@@ -28,9 +28,9 @@ public class editAccount extends javax.swing.JFrame {
         email = new javax.swing.JTextField();
         username = new javax.swing.JTextField();
         contact = new javax.swing.JTextField();
-        jLabel17 = new javax.swing.JLabel();
         id = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -116,12 +116,6 @@ public class editAccount extends javax.swing.JFrame {
         });
         jPanel3.add(contact, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, 240, 30));
 
-        jLabel17.setFont(new java.awt.Font("Yu Gothic", 1, 18)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/sss.png"))); // NOI18N
-        jLabel17.setText("UPDATE ACCOUNT");
-        jPanel3.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 200, 40));
-
         id.setFont(new java.awt.Font("Yu Gothic", 1, 11)); // NOI18N
         id.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         id.setText("ID");
@@ -134,6 +128,11 @@ public class editAccount extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-account-64.png"))); // NOI18N
         jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 20, -1, -1));
+
+        jLabel2.setFont(new java.awt.Font("Yu Gothic", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("UPDATE ACCOUNT");
+        jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, -1, -1));
 
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 320, 490));
 
@@ -245,7 +244,7 @@ public class editAccount extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;

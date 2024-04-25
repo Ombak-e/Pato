@@ -2,6 +2,20 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/AdminDSB/pendingAccounts.java</file>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/AdminDSB/AdminDashboard.java</file>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/Config/Container.java</file>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/LoginDSB/LoginDashboard.java</file>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/AdminDSB/changePassword.java</file>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/UserDSB/UserDashboard.java</file>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/Config/DBConnector.java</file>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/AdminDSB/forgotPassword.java</file>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/AdminDSB/createAccount.java</file>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/RegDSB/RegisterDashboard.java</file>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/Config/passwordHashing.java</file>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/AdminDSB/myAccount.java</file>
+            <file>file:/C:/Users/SCC-COLLEGE/Desktop/Pato/Pato/src/AdminDSB/editAccount.java</file>
+        </group>
     </open-files>
 </project-private>

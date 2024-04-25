@@ -187,7 +187,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                     editAccount ea = new editAccount();
                     ea.id.setText("" + rs.getString("id"));
                     ea.email.setText("" + rs.getString("email"));
-                    ea.username.setText("" + rs.getString("username"));
+                    ea.username.setText("" + rs.getString("username"));                   
                     ea.contact.setText("" + rs.getString("contact"));
                     ea.type.setSelectedItem("" + rs.getString("type"));
                     ea.status.setSelectedItem("" + rs.getString("status"));

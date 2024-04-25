@@ -32,9 +32,9 @@ public class createAccount extends javax.swing.JFrame {
         email = new javax.swing.JTextField();
         username = new javax.swing.JTextField();
         contact = new javax.swing.JTextField();
-        jLabel17 = new javax.swing.JLabel();
         cpassword = new javax.swing.JPasswordField();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -140,12 +140,6 @@ public class createAccount extends javax.swing.JFrame {
         });
         jPanel3.add(contact, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, 240, 30));
 
-        jLabel17.setFont(new java.awt.Font("Yu Gothic", 1, 18)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/sss.png"))); // NOI18N
-        jLabel17.setText("CREATE A NEW ACCOUNT");
-        jPanel3.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, 250, 50));
-
         cpassword.setFont(new java.awt.Font("Yu Gothic", 0, 11)); // NOI18N
         cpassword.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         cpassword.setText("CONFIRM PASSWORD");
@@ -158,6 +152,11 @@ public class createAccount extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-account-64.png"))); // NOI18N
         jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 0, -1, -1));
+
+        jLabel2.setFont(new java.awt.Font("Yu Gothic", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("CREATE ACCOUNT");
+        jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, -1, -1));
 
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 320, 490));
 
@@ -200,7 +199,7 @@ public class createAccount extends javax.swing.JFrame {
             }
         } catch (SQLException er) {
             System.out.println("Eror: " + er.getMessage());
-        } catch (NoSuchAlgorithmException ex) {
+        } catch (NoSuchAlgorithmException ex) {           
             System.out.println("Error: " + ex.getMessage());
         }
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -291,7 +290,7 @@ public class createAccount extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
